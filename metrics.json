@@ -1,0 +1,10 @@
+{
+  "JVM_HEAPMEMORY_USED": {
+    "defaultAggregate": "max",
+    "defaultResolutionMS": 1000,
+    "description": "Java virtual machine heap memory used",
+    "displayName": "JVM Heap Memory Used",
+    "displayNameShort": "JVM Heap Mem Used",
+    "unit": "bytecount"
+  }
+}
