@@ -131,44 +131,6 @@
       "enabled": true
     },
     {
-      "mbean": "com.boundary.plugin.jmx:type=Harmonic",
-      "attributes": [
-        {
-          "attribute": "Value",
-          "dataType": "double",
-          "metricName": "COM.BOUNDARY.PLUGIN.JMX.HARMONIC.VALUE",
-          "metricType": "standard",
-          "scale": 1,
-          "enabled": true
-        },
-        {
-          "attribute": "Phase",
-          "dataType": "double",
-          "metricName": "COM.BOUNDARY.PLUGIN.JMX.HARMONIC.PHASE",
-          "metricType": "standard",
-          "scale": 1,
-          "enabled": true
-        },
-        {
-          "attribute": "Amplitude",
-          "dataType": "double",
-          "metricName": "COM.BOUNDARY.PLUGIN.JMX.HARMONIC.AMPLITUDE",
-          "metricType": "standard",
-          "scale": 1,
-          "enabled": true
-        },
-        {
-          "attribute": "Frequency",
-          "dataType": "double",
-          "metricName": "COM.BOUNDARY.PLUGIN.JMX.HARMONIC.FREQUENCY",
-          "metricType": "standard",
-          "scale": 1,
-          "enabled": true
-        }
-      ],
-      "enabled": true
-    },
-    {
       "mbean": "java.lang:name=PS Scavenge,type=GarbageCollector",
       "attributes": [
         {
@@ -846,20 +808,6 @@
           "attribute": "DiagnosticOptions",
           "dataType": "[Ljavax.management.openmbean.CompositeData;",
           "metricName": "COM.SUN.MANAGEMENT.HOTSPOTDIAGNOSTIC.DIAGNOSTIC.OPTIONS",
-          "metricType": "standard",
-          "scale": 1,
-          "enabled": true
-        }
-      ],
-      "enabled": true
-    },
-    {
-      "mbean": "com.boundary.plugin.jmx:type=Example",
-      "attributes": [
-        {
-          "attribute": "CacheSize",
-          "dataType": "int",
-          "metricName": "COM.BOUNDARY.PLUGIN.JMX.EXAMPLE.CACHE.SIZE",
           "metricType": "standard",
           "scale": 1,
           "enabled": true
