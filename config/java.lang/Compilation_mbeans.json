@@ -1,0 +1,18 @@
+{
+  "map": [
+    {
+      "mbean": "java.lang:type=Compilation",
+      "attributes": [
+        {
+          "attribute": "TotalCompilationTime",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.COMPILATION.TOTAL.COMPILATION.TIME",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

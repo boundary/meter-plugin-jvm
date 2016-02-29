@@ -1,0 +1,36 @@
+{
+  "map": [
+    {
+      "mbean": "java.lang:type=Memory",
+      "attributes": [
+        {
+          "attribute": "ObjectPendingFinalizationCount",
+          "dataType": "int",
+          "metricName": "JAVA.LANG.MEMORY.OBJECT.PENDING.FINALIZATION.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "HeapMemoryUsage",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "key": "used",
+          "metricName": "JAVA.LANG.MEMORY.HEAP.MEMORY.USAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "NonHeapMemoryUsage",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "key": "used",
+          "metricName": "JAVA.LANG.MEMORY.NON.HEAP.MEMORY.USAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

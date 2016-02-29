@@ -1,0 +1,35 @@
+{
+  "map": [
+    {
+      "mbean": "java.lang:name=PS MarkSweep,type=GarbageCollector",
+      "attributes": [
+        {
+          "attribute": "LastGcInfo",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "key": "used",
+          "metricName": "JAVA.LANG.GARBAGECOLLECTOR.PS.MARKSWEEP.LAST.GC.INFO",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.GARBAGECOLLECTOR.PS.MARKSWEEP.COLLECTION.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionTime",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.GARBAGECOLLECTOR.PS.MARKSWEEP.COLLECTION.TIME",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

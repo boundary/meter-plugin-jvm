@@ -1,0 +1,59 @@
+{
+  "map": [
+    {
+      "mbean": "java.lang:name=Metaspace,type=MemoryPool",
+      "attributes": [
+        {
+          "attribute": "Usage",
+          "metricName": "JAVA.LANG.MEMORYPOOL.METASPACE.USAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "PeakUsage",
+          "metricName": "JAVA.LANG.MEMORYPOOL.METASPACE.PEAK.USAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "UsageThreshold",
+          "metricName": "JAVA.LANG.MEMORYPOOL.METASPACE.USAGE.THRESHOLD",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "UsageThresholdCount",
+          "metricName": "JAVA.LANG.MEMORYPOOL.METASPACE.USAGE.THRESHOLD.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionUsageThreshold",
+          "metricName": "JAVA.LANG.MEMORYPOOL.METASPACE.COLLECTION.USAGE.THRESHOLD",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionUsageThresholdCount",
+          "metricName": "JAVA.LANG.MEMORYPOOL.METASPACE.COLLECTION.USAGE.THRESHOLD.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionUsage",
+          "metricName": "JAVA.LANG.MEMORYPOOL.METASPACE.COLLECTION.USAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}
