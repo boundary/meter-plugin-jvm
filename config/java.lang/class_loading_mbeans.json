@@ -1,5 +1,5 @@
 {
-  "map": ['
+  "map": [
     {
       "mbean": "java.lang:type=ClassLoading",
       "attributes": [
