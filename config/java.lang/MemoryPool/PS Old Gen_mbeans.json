@@ -1,0 +1,69 @@
+{
+  "map": [
+    {
+      "mbean": "java.lang:name=PS Old Gen,type=MemoryPool",
+      "attributes": [
+        {
+          "attribute": "Usage",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.OLD.GEN.USAGE",
+          "key": "used",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "PeakUsage",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.OLD.GEN.PEAK.USAGE",
+          "key": "used",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "UsageThreshold",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.OLD.GEN.USAGE.THRESHOLD",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "UsageThresholdCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.OLD.GEN.USAGE.THRESHOLD.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionUsageThreshold",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.OLD.GEN.COLLECTION.USAGE.THRESHOLD",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionUsageThresholdCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.OLD.GEN.COLLECTION.USAGE.THRESHOLD.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionUsage",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "key": "used",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.OLD.GEN.COLLECTION.USAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "map": [
+    {
+      "mbean": "java.nio:name=mapped,type=BufferPool",
+      "attributes": [
+        {
+          "attribute": "Count",
+          "dataType": "long",
+          "metricName": "JAVA.NIO.BUFFERPOOL.MAPPED.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "TotalCapacity",
+          "dataType": "long",
+          "metricName": "JAVA.NIO.BUFFERPOOL.MAPPED.TOTAL.CAPACITY",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "MemoryUsed",
+          "dataType": "long",
+          "metricName": "JAVA.NIO.BUFFERPOOL.MAPPED.MEMORY.USED",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

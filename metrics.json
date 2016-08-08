@@ -1,0 +1,686 @@
+{
+  "JAVA.LANG.MEMORYPOOL.METASPACE.USAGE": {
+    "displayName": "Memory Pool Metaspace Usage",
+    "displayNameShort": "JVM MP Meta Usage",
+    "description": "Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.METASPACE.PEAK.USAGE": {
+    "displayName": "Memory Pool Metaspace Peak Usage",
+    "displayNameShort": "JVM MP Meta Peak",
+    "description": "Peak Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "max",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.METASPACE.COLLECTION.USAGE": {
+    "displayName": "Memory Pool Metaspace Collection Usage",
+    "displayNameShort": "",
+    "description": "Collection Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS.OLD.GEN.USAGE": {
+    "displayName": "Memory Pool PS Old Gen Usage",
+    "displayNameShort": "",
+    "description": "Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS.OLD.GEN.PEAK.USAGE": {
+    "displayName": "Memory Pool PS Old Gen Peak Usage",
+    "displayNameShort": "",
+    "description": "Peak Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_OLD_GEN.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool PS Old Gen Usage Threshold",
+    "displayNameShort": "",
+    "description": "Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_OLD_GEN.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool PS Old Gen Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_OLD_GEN.COLLECTION.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool PS Old Gen Collection Usage Threshold",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_OLD_GEN.COLLECTION.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool PS Old Gen Collection Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_OLD_GEN.COLLECTION.USAGE": {
+    "displayName": "Memory Pool PS Old Gen Collection Usage",
+    "displayNameShort": "",
+    "description": "Collection Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.GARBAGECOLLECTOR.PS_SCAVENGE.LAST.GC.INFO": {
+    "displayName": "Garbage Collector PS Scavenge Last Gc Info",
+    "displayNameShort": "",
+    "description": "Last Gc Info",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.GARBAGECOLLECTOR.PS_SCAVENGE.COLLECTION.COUNT": {
+    "displayName": "Garbage Collector PS Scavenge Collection Count",
+    "displayNameShort": "",
+    "description": "Collection Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.GARBAGECOLLECTOR.PS.SCAVENGE.COLLECTION.TIME": {
+    "displayName": "Garbage Collector PS Scavenge Collection Time",
+    "displayNameShort": "",
+    "description": "Collection Time",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS.EDEN.SPACE.USAGE": {
+    "displayName": "Memory Pool PS Eden Space Usage",
+    "displayNameShort": "",
+    "description": "Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS.EDEN.SPACE.PEAK.USAGE": {
+    "displayName": "Memory Pool PS Eden Space Peak Usage",
+    "displayNameShort": "",
+    "description": "Peak Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "max",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_EDEN_SPACE.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool PS Eden Space Usage Threshold",
+    "displayNameShort": "",
+    "description": "Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_EDEN_SPACE.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool PS Eden Space Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_EDEN_SPACE.COLLECTION.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool PS Eden Space Collection Usage Threshold",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS.EDEN.SPACE.COLLECTION.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool PS Eden Space Collection Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS.EDEN.SPACE.COLLECTION.USAGE": {
+    "displayName": "Memory Pool PS Eden Space Collection Usage",
+    "displayNameShort": "",
+    "description": "Collection Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.RUNTIME.START.TIME": {
+    "displayName": "Runtime Start Time",
+    "displayNameShort": "RuntimeStartTime",
+    "description": "Start Time",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.RUNTIME.UPTIME": {
+    "displayName": "Runtime Uptime",
+    "displayNameShort": "RuntimeUptime",
+    "description": "Uptime",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.THREADING.THREAD.COUNT": {
+    "displayName": "Threading Thread Count",
+    "displayNameShort": "ThreadingThreadCount",
+    "description": "Thread Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.THREADING.TOTAL.STARTED.THREAD.COUNT": {
+    "displayName": "Threading Total Started Thread Count",
+    "displayNameShort": "",
+    "description": "Total Started Thread Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.THREADING.CURRENT.THREAD.CPU.TIME": {
+    "displayName": "Threading Current Thread Cpu Time",
+    "displayNameShort": "",
+    "description": "Current Thread Cpu Time",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.THREADING.CURRENT.THREAD.USER.TIME": {
+    "displayName": "Threading Current Thread User Time",
+    "displayNameShort": "",
+    "description": "Current Thread User Time",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.THREADING.PEAK.THREAD.COUNT": {
+    "displayName": "Threading Peak Thread Count",
+    "displayNameShort": "",
+    "description": "Peak Thread Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.THREADING.DAEMON.THREAD.COUNT": {
+    "displayName": "Threading Daemon Thread Count",
+    "displayNameShort": "",
+    "description": "Daemon Thread Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.OPEN.FILE.DESCRIPTOR.COUNT": {
+    "displayName": "Operating System Open File Descriptor Count",
+    "displayNameShort": "",
+    "description": "Open File Descriptor Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.MAX.FILE.DESCRIPTOR.COUNT": {
+    "displayName": "Operating System Max File Descriptor Count",
+    "displayNameShort": "",
+    "description": "Max File Descriptor Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.COMMITTED.VIRTUAL.MEMORY.SIZE": {
+    "displayName": "Operating System Committed Virtual Memory Size",
+    "displayNameShort": "",
+    "description": "Committed Virtual Memory Size",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.TOTAL.SWAP.SPACE.SIZE": {
+    "displayName": "Operating System Total Swap Space Size",
+    "displayNameShort": "",
+    "description": "Total Swap Space Size",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.FREE.SWAP.SPACE.SIZE": {
+    "displayName": "Operating System Free Swap Space Size",
+    "displayNameShort": "",
+    "description": "Free Swap Space Size",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.PROCESS.CPU.TIME": {
+    "displayName": "Operating System Process Cpu Time",
+    "displayNameShort": "",
+    "description": "Process Cpu Time",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "duration",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.FREE.PHYSICAL.MEMORY.SIZE": {
+    "displayName": "Operating System Free Physical Memory Size",
+    "displayNameShort": "",
+    "description": "Free Physical Memory Size",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.TOTAL.PHYSICAL.MEMORY.SIZE": {
+    "displayName": "Operating System Total Physical Memory Size",
+    "displayNameShort": "",
+    "description": "Total Physical Memory Size",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.SYSTEM.CPU.LOAD": {
+    "displayName": "Operating System System Cpu Load",
+    "displayNameShort": "",
+    "description": "System Cpu Load",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.PROCESS.CPU.LOAD": {
+    "displayName": "Operating System Process Cpu Load",
+    "displayNameShort": "",
+    "description": "Process Cpu Load",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.SYSTEM.LOAD.AVERAGE": {
+    "displayName": "Operating System System Load Average",
+    "displayNameShort": "",
+    "description": "System Load Average",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.OPERATINGSYSTEM.AVAILABLE.PROCESSORS": {
+    "displayName": "Operating System Available Processors",
+    "displayNameShort": "",
+    "description": "Available Processors",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.CODE_CACHE.USAGE": {
+    "displayName": "Memory Pool Code Cache Usage",
+    "displayNameShort": "",
+    "description": "Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.CODE_CACHE.PEAK.USAGE": {
+    "displayName": "Memory Pool Code Cache Peak Usage",
+    "displayNameShort": "",
+    "description": "Peak Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "max",
+    "unit": "bytes",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.CODE_CACHE.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool Code Cache Usage Threshold",
+    "displayNameShort": "",
+    "description": "Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.CODE_CACHE.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool Code Cache Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.CODE_CACHE.COLLECTION.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool Code Cache Collection Usage Threshold",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.CODE_CACHE.COLLECTION.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool Code Cache Collection Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.CODE_CACHE.COLLECTION.USAGE": {
+    "displayName": "Memory Pool Code Cache Collection Usage",
+    "displayNameShort": "",
+    "description": "Collection Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.NIO.BUFFERPOOL.DIRECT.TOTAL.CAPACITY": {
+    "displayName": "Buffer Pooldirect Total Capacity",
+    "displayNameShort": "",
+    "description": "Total Capacity",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.NIO.BUFFERPOOL.DIRECT.MEMORY.USED": {
+    "displayName": "Buffer Pooldirect Memory Used",
+    "displayNameShort": "",
+    "description": "Memory Used",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.NIO.BUFFERPOOL.DIRECT.COUNT": {
+    "displayName": "Buffer Pooldirect Count",
+    "displayNameShort": "",
+    "description": "Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.COMPILATION.TOTAL.COMPILATION.TIME": {
+    "displayName": "Compilation Total Compilation Time",
+    "displayNameShort": "",
+    "description": "Total Compilation Time",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.COMPRESSED_CLASS_SPACE.USAGE": {
+    "displayName": "Memory Pool Compressed Class Space Usage",
+    "displayNameShort": "",
+    "description": "Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.COMPRESSED_CLASS_SPACE.PEAK.USAGE": {
+    "displayName": "Memory Pool Compressed Class Space Peak Usage",
+    "displayNameShort": "",
+    "description": "Peak Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.COMPRESSED_CLASS_SPACE.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool Compressed Class Space Usage Threshold",
+    "displayNameShort": "",
+    "description": "Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.COMPRESSED_CLASS_SPACE.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool Compressed Class Space Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.COMPRESSED_CLASS_SPACE.COLLECTION.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool Compressed Class Space Collection Usage Threshold",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.COMPRESSED_CLASS_SPACE.COLLECTION.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool Compressed Class Space Collection Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.COMPRESSED_CLASS_SPACE.COLLECTION.USAGE": {
+    "displayName": "Memory Pool Compressed Class Space Collection Usage",
+    "displayNameShort": "",
+    "description": "Collection Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORY.OBJECT.PENDING.FINALIZATION.COUNT": {
+    "displayName": "Memory Object Pending Finalization Count",
+    "displayNameShort": "",
+    "description": "Object Pending Finalization Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORY.HEAP.MEMORY.USAGE": {
+    "displayName": "Memory Heap Memory Usage",
+    "displayNameShort": "",
+    "description": "Heap Memory Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORY.NON.HEAP.MEMORY.USAGE": {
+    "displayName": "Memory Non Heap Memory Usage",
+    "displayNameShort": "",
+    "description": "Non Heap Memory Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.NIO.BUFFERPOOL.MAPPED.TOTAL.CAPACITY": {
+    "displayName": "Buffer Poolmapped Total Capacity",
+    "displayNameShort": "",
+    "description": "Total Capacity",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.NIO.BUFFERPOOL.MAPPED.MEMORY.USED": {
+    "displayName": "Buffer Poolmapped Memory Used",
+    "displayNameShort": "",
+    "description": "Memory Used",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.NIO.BUFFERPOOL.MAPPED.COUNT": {
+    "displayName": "Buffer Poolmapped Count",
+    "displayNameShort": "",
+    "description": "Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_SURVIVOR_SPACE.USAGE": {
+    "displayName": "Memory Pool PS Survivor Space Usage",
+    "displayNameShort": "",
+    "description": "Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_SURVIVOR_SPACE.PEAK.USAGE": {
+    "displayName": "Memory Pool PS Survivor Space Peak Usage",
+    "displayNameShort": "",
+    "description": "Peak Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_SURVIVOR_SPACE.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool PS Survivor Space Usage Threshold",
+    "displayNameShort": "",
+    "description": "Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_SURVIVOR_SPACE.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool PS Survivor Space Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_SURVIVOR_SPACE.COLLECTION.USAGE.THRESHOLD": {
+    "displayName": "Memory Pool PS Survivor Space Collection Usage Threshold",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_SURVIVOR_SPACE.COLLECTION.USAGE.THRESHOLD.COUNT": {
+    "displayName": "Memory Pool PS Survivor Space Collection Usage Threshold Count",
+    "displayNameShort": "",
+    "description": "Collection Usage Threshold Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.MEMORYPOOL.PS_SURVIVOR_SPACE.COLLECTION.USAGE": {
+    "displayName": "Memory Pool PS Survivor Space Collection Usage",
+    "displayNameShort": "",
+    "description": "Collection Usage",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.CLASSLOADING.TOTAL.LOADED.CLASS.COUNT": {
+    "displayName": "Class Loading Total Loaded Class Count",
+    "displayNameShort": "",
+    "description": "Total Loaded Class Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.CLASSLOADING.LOADED.CLASS.COUNT": {
+    "displayName": "Class Loading Loaded Class Count",
+    "displayNameShort": "",
+    "description": "Loaded Class Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.CLASSLOADING.UNLOADED.CLASS.COUNT": {
+    "displayName": "Class Loading Unloaded Class Count",
+    "displayNameShort": "",
+    "description": "Unloaded Class Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.GARBAGECOLLECTOR.PS.MARKSWEEP.COLLECTION.COUNT": {
+    "displayName": "Garbage Collector PS Mark Sweep Collection Count",
+    "displayNameShort": "",
+    "description": "Collection Count",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  },
+  "JAVA.LANG.GARBAGECOLLECTOR.PS.MARKSWEEP.COLLECTION.TIME": {
+    "displayName": "Garbage Collector PS Mark Sweep Collection Time",
+    "displayNameShort": "",
+    "description": "Collection Time",
+    "defaultResolutionMS": 1000,
+    "defaultAggregate": "avg",
+    "unit": "number",
+    "isDisabled": false
+  }
+}

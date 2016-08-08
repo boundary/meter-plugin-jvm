@@ -1,0 +1,106 @@
+{
+  "map": [
+    {
+      "mbean": "java.lang:type=OperatingSystem",
+      "attributes": [
+        {
+          "attribute": "OpenFileDescriptorCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.OPEN.FILE.DESCRIPTOR.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "MaxFileDescriptorCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.MAX.FILE.DESCRIPTOR.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CommittedVirtualMemorySize",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.COMMITTED.VIRTUAL.MEMORY.SIZE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "TotalSwapSpaceSize",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.TOTAL.SWAP.SPACE.SIZE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "FreeSwapSpaceSize",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.FREE.SWAP.SPACE.SIZE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "ProcessCpuTime",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.PROCESS.CPU.TIME",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "FreePhysicalMemorySize",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.FREE.PHYSICAL.MEMORY.SIZE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "TotalPhysicalMemorySize",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.TOTAL.PHYSICAL.MEMORY.SIZE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "SystemCpuLoad",
+          "dataType": "double",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.SYSTEM.CPU.LOAD",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "ProcessCpuLoad",
+          "dataType": "double",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.PROCESS.CPU.LOAD",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "AvailableProcessors",
+          "dataType": "int",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.AVAILABLE.PROCESSORS",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "SystemLoadAverage",
+          "dataType": "double",
+          "metricName": "JAVA.LANG.OPERATINGSYSTEM.SYSTEM.LOAD.AVERAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

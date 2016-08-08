@@ -1,0 +1,34 @@
+{
+  "map": [
+    {
+      "mbean": "java.lang:type=ClassLoading",
+      "attributes": [
+        {
+          "attribute": "TotalLoadedClassCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.CLASSLOADING.TOTAL.LOADED.CLASS.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "LoadedClassCount",
+          "dataType": "int",
+          "metricName": "JAVA.LANG.CLASSLOADING.LOADED.CLASS.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "UnloadedClassCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.CLASSLOADING.UNLOADED.CLASS.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

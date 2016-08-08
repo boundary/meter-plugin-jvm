@@ -1,0 +1,69 @@
+{
+  "map": [
+    {
+      "mbean": "java.lang:name=PS Survivor Space,type=MemoryPool",
+      "attributes": [
+        {
+          "attribute": "Usage",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "key": "used",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.SURVIVOR.SPACE.USAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "PeakUsage",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "key": "usage",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.SURVIVOR.SPACE.PEAK.USAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "UsageThreshold",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.SURVIVOR.SPACE.USAGE.THRESHOLD",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "UsageThresholdCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.SURVIVOR.SPACE.USAGE.THRESHOLD.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionUsageThreshold",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.SURVIVOR.SPACE.COLLECTION.USAGE.THRESHOLD",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionUsageThresholdCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.SURVIVOR.SPACE.COLLECTION.USAGE.THRESHOLD.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionUsage",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "key": "usage",
+          "metricName": "JAVA.LANG.MEMORYPOOL.PS.SURVIVOR.SPACE.COLLECTION.USAGE",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

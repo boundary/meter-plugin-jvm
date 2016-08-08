@@ -1,0 +1,35 @@
+{
+  "map": [
+    {
+      "mbean": "java.lang:name=PS Scavenge,type=GarbageCollector",
+      "attributes": [
+        {
+          "attribute": "LastGcInfo",
+          "dataType": "javax.management.openmbean.CompositeData",
+          "key": "used",
+          "metricName": "JAVA.LANG.GARBAGECOLLECTOR.PS.SCAVENGE.LAST.GC.INFO",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionCount",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.GARBAGECOLLECTOR.PS.SCAVENGE.COLLECTION.COUNT",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        },
+        {
+          "attribute": "CollectionTime",
+          "dataType": "long",
+          "metricName": "JAVA.LANG.GARBAGECOLLECTOR.PS.SCAVENGE.COLLECTION.TIME",
+          "metricType": "standard",
+          "scale": 1,
+          "enabled": true
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

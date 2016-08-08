@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "name": "JVM",
+      "user": "",
+      "password": "",
+      "host": "localhost",
+      "port": 8888,
+      "pollInterval": 5000,
+      "source": "jvm"
+    }
+  ],
+  "pollInterval": 1000
+}
